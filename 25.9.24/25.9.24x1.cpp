@@ -1,8 +1,0 @@
-#include <iostream>
-using namespace std;
-
-int main()
-{
-	cout << 25924;
-	return 0;
-} 
