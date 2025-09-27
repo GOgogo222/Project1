@@ -1,0 +1,15 @@
+//子字符串匹配模式
+//解题用到的函数对我来说过于复杂
+
+class Solution {
+public:
+    bool hasMatch(const string& s, const string& p) {
+        int star = p.find('*');
+        int i = s.find(p.substr(0, star));
+        return i != string::npos && s.substr(i + star).find(p.substr(star + 1)) != string::npos;
+    }
+};
+
+// 作者：灵茶山艾府
+// 链接：https://leetcode.cn/problems/substring-matching-pattern/solutions/3038944/ku-han-shu-jian-ji-xie-fa-pythonjavacgo-sukdf/
+
