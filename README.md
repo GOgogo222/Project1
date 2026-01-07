@@ -1,6 +1,4 @@
 # Project1
-My first repository.I want to have a 100-Day challenge.
 
-"_L"代表链表
+https://github.com/halfrost/LeetCode-Go
 
-"_S"代表栈
