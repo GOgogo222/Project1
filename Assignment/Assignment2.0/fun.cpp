@@ -1,9 +1,9 @@
 #include <iostream>
 #include <iomanip>
-#include <windows.h>
+#include <windows.h> // 管理颜色 
 #include <cstring>
-#include <fstream>
-#include <ctime>
+#include <fstream> // 文件流 
+#include <ctime> // 获取系统时间 
 using namespace std;
 #include "fun.h"
 

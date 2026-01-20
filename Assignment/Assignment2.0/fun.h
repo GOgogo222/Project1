@@ -30,7 +30,7 @@ struct SeqList {
     int capacity;
 };
 
-// 新增：订单列表结构
+// 订单列表结构
 struct OrderList {
     Order *data;
     int length;
@@ -60,7 +60,7 @@ bool DeleteRestaurant(SeqList &L);
 void ReservationManagement(SeqList &L, OrderList &orders); // 修改参数
 void SortRestaurants(SeqList &L);
 
-// 新增：订单管理函数
+// 订单管理函数
 void InitOrderList(OrderList &orders);
 void SaveOrdersToFile(OrderList &orders);
 void LoadOrdersFromFile(OrderList &orders);
