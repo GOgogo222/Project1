@@ -1,4 +1,4 @@
-# [283.Move Zeroes](https://leetcode.cn/problems/move-zeroes/)
+# [0283.Move Zeroes](https://leetcode.cn/problems/move-zeroes/)
 
 
 ## 题目
