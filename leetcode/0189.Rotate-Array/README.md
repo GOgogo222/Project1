@@ -56,10 +56,13 @@ rotate 2 steps to the right: [3,99,-1,-100]
 二：翻转三次数组，如下
 
 nums = "----->-->"; k =3
+
 result = "-->----->";
 
 reverse "----->-->" we can get "<--<-----"
+
 reverse "<--" we can get "--><-----"
+
 reverse "<-----" we can get "-->----->"
 
 原地址：https://leetcode.com/problems/rotate-array/solutions/54250/Easy-to-read-Java-solution/
